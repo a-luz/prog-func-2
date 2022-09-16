@@ -5,5 +5,6 @@
 ;; altera a idade do cliente
 ;; remove o endereco do cliente
 ;; atualiza o valor de um item de compra
+;; adicionar o vetor de compras no mapa do cliente
 ;; adiciona um novo item de compra
 ;; retorna o nome do cliente
