@@ -31,8 +31,8 @@
 
 
 (defn adcionaitem-compra
-  [item novo-item ]
-  (assoc item :item novo-item ))
+  [item novo-item novo-valor]
+  (conj item :item novo-item  :valor novo-valor  ))
 
 
 (defn retorna-nome
