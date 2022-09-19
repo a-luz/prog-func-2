@@ -1,0 +1,61 @@
+(ns aula2.data)
+
+(def clientes-lista
+  '({:first-name         "Alexandre"
+     :last-name          "Silva"
+     :age                30
+     :last-year-revenue 9000
+     :location           "SP"}
+    {:first-name         "Erica"
+     :last-name          "Carvalho"
+     :age                50
+     :last-year-revenue 50000
+     :location           "MG"}
+    {:first-name         "Carla"
+     :last-name          "Lima"
+     :age                19
+     :last-year-revenue 100000
+     :location           "SP"}
+    {:first-name         "Jose"
+     :last-name          "Assuncao"
+     :age                23
+     :last-year-revenue 30000
+     :location           "RJ"}
+    {:first-name         "Joao"
+     :last-name          "Santos"
+     :age                36
+     :last-year-revenue 25000
+     :location           "MG"}
+    {:first-name         "Luis"
+     :last-name          "Souza"
+     :age                47
+     :last-year-revenue 15000
+     :location           "BA"}
+    {:first-name         "Maria"
+     :last-name          "Rodrigues"
+     :age                26
+     :last-year-revenue 70000
+     :location           "BA"}))
+
+
+(def clientes-vetor
+  [{:first-name         "Eduarda"
+    :last-name          "Morais"
+    :age                44
+    :last-year-revenue 95000
+    :location           "SP"}
+   {:first-name         "Marcos"
+    :last-name          "Silva"
+    :age                63
+    :last-year-revenue 49000
+    :location           "AM"}
+   {:first-name         "Barbara"
+    :last-name          "Lopes"
+    :age                30
+    :last-year-revenue 19000
+    :location           "TO"}
+   {:first-name         "Renato"
+     :last-name         "Nogueira"
+     :age                30
+     :last-year-revenue 55000
+     :location           "RJ"}])
