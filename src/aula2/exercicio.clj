@@ -9,12 +9,12 @@
 ;; retornar o cliente na posicão `p` do vetor clientes.
 
 
-;; retornar o primeiro elemento do vetor `clientes`.
+;; retornar o nome do cliente mais novo do vetor `clientes`.
 
-;; remover o primeiro elemento do vetor `clientes`.
+;; remover o cliente mais novo do vetor `clientes`.
 
-;; retornar o último elemento do vetor `clientes`.
+;; retornar o nome do cliente mais antigo do vetor `clientes`.
 
-;; remover o último elemento do vetor `clientes`.
+;; remover o cliente mais antigo do vetor `clientes`.
 
 ;; remover do vetor `clientes` os clientes com o `last-year-revenue` menor que 50000 (dica: usar `remove` ou `filter`, procurar na documentacão);
