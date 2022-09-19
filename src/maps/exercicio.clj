@@ -38,3 +38,7 @@
 (defn retorna-nome
   [cliente]
   (:nome cliente))
+
+(defn adcionaitem-compra-cliente
+  [item novo-item novo-valor]
+  (conj item :item novo-item  :valor novo-valor  ))
