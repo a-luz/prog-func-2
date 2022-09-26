@@ -1,0 +1,84 @@
+(ns aula5.data)
+
+(def clients
+  [{:id "1"
+    :first-name         "Alexandre"
+    :last-name          "Silva"
+    :age                30
+    :location           "SP"}
+   {:id "5"
+    :first-name         "Erica"
+    :last-name          "Carvalho"
+    :age                50
+    :location           "MG"}
+   {:id "8"
+    :first-name         "Carla"
+    :last-name          "Lima"
+    :age                19
+    :location           "SP"}
+   {:id "3"
+    :first-name         "Jose"
+    :last-name          "Assuncao"
+    :age                23
+    :location           "RJ"}
+   {:id "12"
+    :first-name         "Joao"
+    :last-name          "Santos"
+    :age                36
+    :location           "MG"}
+   {:id "32"
+    :first-name         "Luis"
+    :last-name          "Souza"
+    :age                47
+    :location           "BA"}
+   {:id "4"
+    :first-name         "Maria"
+    :last-name          "Rodrigues"
+    :age                26
+    :location           "BA"}])
+
+(def purchases
+  [{:client-id "1"
+    :item-id "29"
+    :amount 2}
+   {:client-id "4"
+    :item-id "31"
+    :amount 1}
+   {:client-id "4"
+    :item-id "14"
+    :amount 1}
+   {:client-id "5"
+    :item-id "22"
+    :amount 3}
+   {:client-id "5"
+    :item-id "3"
+    :amount 5}
+   {:client-id "32"
+    :item-id "3"
+    :amount 8}
+   {:client-id "32"
+    :item-id "1"
+    :amount 12}
+   {:client-id "8"
+    :item-id "29"
+    :amount 13}])
+
+(def store
+  [{:id "29"
+    :name "livro"
+    :price 200}
+   {:id "31"
+    :name "mouse"
+    :price 50}
+   {:id "14"
+    :name "teclado"
+    :price 150}
+   {:id "22"
+    :name "monitor"
+    :price 2000}
+   {:id "3"
+    :name "webcam"
+    :price 150}
+   {:id "1"
+    :name "agenda"
+    :price 90}])
