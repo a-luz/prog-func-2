@@ -12,6 +12,9 @@
   [cliente sobrenome]
   (assoc cliente :sobrenome sobrenome))
 
+
+
+
 (defn adiciona-cidade
   [cliente cidade]
   (assoc-in cliente [:endereco :cidade] cidade))

@@ -73,7 +73,3 @@
    "35" {:id-cliente "4"
          :agencia "0001"
          :saldo 16412}})
-
-;;  {:de :para :data :valor}
-(def transacoes
-  [])

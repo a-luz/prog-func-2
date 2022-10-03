@@ -3,11 +3,19 @@
 
 
 ;; escrever uma funcao que retorna a primeira compra do cliente dado o ID.
+
+;; com desestruturacao
 (defn first-purchase
   [id mapa]
   (let [{{[primeira-compra-cliente] id}
          :compras} mapa]
-  primeira-compra-cliente))
+    primeira-compra-cliente))
+
+;; sem desestruturacao
+(defn first-purchase-2
+  [id mapa]
+  (get-in mapa [:compras id 0]))
+
 
 ;; escrever uma funcao que adiciona a compra {:item "mesa" :valor 250} no vetor de compras de um cliente, dado o ID. Deve retornar o mapa inteiro.
 

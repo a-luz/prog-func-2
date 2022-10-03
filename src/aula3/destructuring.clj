@@ -21,8 +21,30 @@
   (println sequencia)
   (str _))
 
-
-
+(defn desestruturacao-composta
+  [[{primeiro :first-name}
+    {segundo :first-name} :as vetor]]
+  vetor)
 
 
 ;; associativa
+
+(defn desestrutura-assoc
+  [{:keys [clientes]
+    :as mapa
+    :or {clientes [{:nome "Maria"}]}}]
+  clientes)
+
+(defn correspondencia
+  [mapa]
+  (:clientes mapa))
+
+
+(defn destruct
+  [{:keys [clientes compras] :as mapa-completo}]
+  clientes)
+
+;;(take 1 (for [[{{d :dentro} :fora}] [[{:fora {:dentro 1}}]]]
+;;          d))
+;;(type (for [{{d :dentro} :fora}] [[{:fora {:dentro 1}}]]]
+;;        d))

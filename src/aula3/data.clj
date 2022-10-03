@@ -1,6 +1,5 @@
 (ns aula3.data)
 
-
 (def mapa
   {:clientes [{:first-name "Alexandre"
                :last-name  "Silva"
@@ -11,7 +10,7 @@
                :last-name  "Carvalho"
                :age        20
                :location   "MG"
-               :id "2" }
+               :id "2"}
               {:first-name "Carla"
                :last-name  "Lima"
                :age        19
@@ -20,13 +19,11 @@
               {:first-name        "Maria"
                :last-name         "Rodrigues"
                :age               26
-               :last-year-revenue 70000
                :location          "BA"
                :id "4"}
               {:first-name        "Renato"
                :last-name         "Nogueira"
                :age               30
-               :last-year-revenue 55000
                :location          "RJ"
                :id "5"}]
 
